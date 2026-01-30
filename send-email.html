@@ -5,25 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>ارسال ایمیل</title>
   <style>
-    body { font-family: Arial, sans-serif; direction: rtl; padding: 24px; max-width: 680px; margin: auto; }
-    .card { border: 1px solid #ddd; border-radius: 12px; padding: 18px; }
-    a.btn { display: inline-block; padding: 12px 16px; border-radius: 10px; text-decoration: none; border: 1px solid #111; }
+    body {
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      padding: 24px;
+      max-width: 680px;
+      margin: auto;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 18px;
+    }
+    a.btn {
+      display: block;
+      padding: 12px 16px;
+      border-radius: 10px;
+      text-decoration: none;
+      border: 1px solid #111;
+      margin-bottom: 12px;
+      text-align: center;
+    }
   </style>
 </head>
+
 <body>
   <h2>ارسال ایمیل</h2>
 
   <div class="card">
-    <p>برای ارسال ایمیل، روی دکمه زیر بزنید:</p>
+    <p>لطفاً یکی از گزینه‌های زیر را انتخاب کنید:</p>
 
+    <!-- Button 1 -->
     <a class="btn"
-       href="mailto:example@domain.com?subject=Subject%20Here&body=سلام%0A%0Aپیام%20شما%20اینجا..."
-       target="_blank" rel="noopener">
-      ✉️ ارسال ایمیل
+      href="mailto:minister@gov.fr
+        ?subject=درخواست%20رسمی
+        &body=سلام%0A%0Aاین%20یک%20درخواست%20رسمی%20می‌باشد.%0A%0Aبا%20تشکر">
+      ✉️ ارسال ایمیل به فرانسه
+    </a>
+
+    <!-- Button 2 -->
+    <a class="btn"
+      href="mailto:info@gov.es
+        ?subject=Official%20Complaint
+        &body=Hello%2C%0A%0AI%20am%20writing%20to%20raise%20a%20concern.%0A%0AThank%20you">
+      ✉️ ارسال ایمیل به اسپانیا
+    </a>
+
+    <!-- Button 3 -->
+    <a class="btn"
+      href="mailto:office@europa.eu
+        ?subject=Urgent%20Matter
+        &body=Dear%20Sir%2FMadam%2C%0A%0AThis%20email%20is%20ready%20to%20send.%0A%0ARegards">
+      ✉️ ارسال ایمیل به اتحادیه اروپا
     </a>
 
     <p style="margin-top:14px;font-size:14px;color:#666;">
-      اگر ایمیل‌اپ روی گوشی باز نشد، مطمئن شوید اپ ایمیل (Gmail/Apple Mail) تنظیم شده باشد.
+      با کلیک روی هر دکمه، ایمیل مربوطه آماده و در اپ ایمیل شما باز می‌شود.
     </p>
   </div>
 </body>
